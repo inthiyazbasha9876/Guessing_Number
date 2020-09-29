@@ -1,0 +1,83 @@
+body{
+    margin: 0px !important;
+}
+.row{
+    margin: 0px !important;
+}
+
+.background{
+    min-height: 100vh;
+}
+
+.quizdiv{
+    background-color: #3F484A;
+    border: 1px solid black;
+    padding: 10px 40px 10px 40px;
+    color:white;
+    text-align: center;
+    width: 600px;
+}
+
+.heading{
+    font-weight: bold;
+    background-color: aqua;
+    padding: 5px 50px;
+    color:black;
+}
+
+p{
+    margin: 6px!important;
+}
+
+.bttn {
+    border: 1px solid #333333;
+    border-radius: 10px;
+    padding: 5px 20px !important;
+    background: linear-gradient(to right, #333333 50%, #FF652F 50%);
+    background-size: 200% 100% !important;
+    background-position: right bottom;
+    transition: all .4s ease-out !important;
+    margin: 10px 10px 0px 0px !important; 
+    font-weight: bold !important;
+    color: white;
+  }
+  
+  .bttn:hover {
+    background-position: left bottom !important;
+  }
+
+  .hide{
+      display: none !important;
+  }
+
+  .show{
+      display: block !important;
+  }
+
+  .gamediv{
+      margin: 10px;
+    padding: 10px 30px 10px 30px;
+    border: 1px solid #FF652F;
+  }
+
+  .gamehead{
+      font-size: 30px;  
+  }
+
+  .scuess{
+      background-color: rgb(116, 184, 15) !important;
+      padding: 0px 10px;
+      color:black
+  }
+
+  .warning{
+    background-color: #F6C309 !important;
+    padding: 0px 10px;
+    color:black
+  }
+
+  .danger{
+    background-color: #C40B00 !important;
+    padding: 0px 10px;
+    color:black
+  }
